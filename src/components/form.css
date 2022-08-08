@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+.content-cotainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 1500px;
+    margin:35px 0 0 0;
+    padding: .8rem;
+
+}
+.form-cotainer{
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+    width: 315px;
+    height: 280px;
+    padding: 38px 25px 38px 25px;
+}
+.form-description-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.h3-description{
+    display: flex;
+    margin-bottom: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+}
+.input-field {
+    font-family: 'Inter', sans-serif;
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+    gap: 10px;
+    padding: 0px 16px;
+    width: 314px;
+    height: 53px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #868E96;
+}
+.description-example{
+    display: flex;
+    font-size: .8rem;
+    font-family: 'Inter', sans-serif;
+    color: #868E96;
+    line-height: 20px;
+}
+.form-price-div{
+    display: flex;
+    margin-top: 17px;
+
+}
+.input--field--price{
+    width: 128px;
+
+}
+.button-container{
+    display: flex;
+
+}
+.button-insert-value{
+    width: 314px;
+    height: 53px;
+    margin-top: 19px;
+    font-family: 'Inter', sans-serif;
+    background: #FD377E;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.type-div-container{
+    margin-left: 52px;
+    display: flex;
+    flex-direction: column;
+}
+.select--box{
+    width: 128px;
+    height: 53px;
+    font-family: 'Inter', sans-serif;
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+    gap: 10px;
+    padding: 0px 16px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 26px;
+    color: #868E96;
+}
+.total-price-container{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    padding: 25px 25px;
+}
+.total-value-tittle{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 30px;
+    color: #212529;
+}
+.info-total-price-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.total-value{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FD377E;
+}
+.info{
+    margin-top: 10px;
+    display: flex;
+    font-size: .8em;
+    color: #5B6166;
+}
